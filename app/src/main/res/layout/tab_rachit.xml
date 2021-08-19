@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/drachit"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/rachit"
+        android:layout_centerInParent="true">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drachit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:text="Rachit Desai"
+        android:textStyle="bold"
+        android:textColor="#805BAE"
+        android:textSize="18dp">
+    </TextView>
+
+
+
+</RelativeLayout>
